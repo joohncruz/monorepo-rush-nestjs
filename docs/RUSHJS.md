@@ -28,7 +28,12 @@ Setup Project: https://rushjs.io/pages/maintainer/setup_new_repo/
 - **rush change**
     - Se você trabalha em bibliotecas que são publicadas como pacotes NPM, seu repositório provavelmente exige que você inclua entradas de log de alterações como parte de seu PR. Você saberá porque sua construção de PR falhará na etapa de mudança rápida --verificação.
 
-    - 
+- **rush add**
+  - Similar ao npm install ou yarn add, e conseguimos adicionar um pacote direcionado pelo monorepo ex: rush add --package @lab/loan-core.
+
+- **rush init-deploy**
+  - Use este comando para inicializar um novo arquivo de configuração de cenário para uso com "rush deploy". O nome de arquivo padrão é common/config/rush/deploy.json. No entanto, se você precisa gerenciar várias implantações com configurações diferentes, você pode usar use "--scenario" para criar arquivos de configuração adicionais.
+  - ex: rush add --package @lab/loan-core
 
 > **Referencias**: Todos essa documento foi feito om base a documentacao ofiial do Rush.js recomendo ler diretamente da [docs].(https://rushjs.io/pages/developer/everyday_commands/) 
 

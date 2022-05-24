@@ -470,12 +470,13 @@
     // },
     {
       "packageName": "@lab/loan-andre",
-      "projectFolder": "integrations/loan-andre"
+      "projectFolder": "integrations/loan-andre",
+      "reviewCategory": "production"
     },
     {
       "packageName": "@lab/loan-core",
       "projectFolder": "libs/loan-core",
-      "reviewCategory": "production"
+      "reviewCategory": "libraries"
     }
   ]
 }
