@@ -474,6 +474,11 @@
       "reviewCategory": "production"
     },
     {
+      "packageName": "@lab/loan-eric",
+      "projectFolder": "integrations/loan-eric",
+      "reviewCategory": "production"
+    },
+    {
       "packageName": "@lab/loan-core",
       "projectFolder": "libs/loan-core",
       "reviewCategory": "libraries"
