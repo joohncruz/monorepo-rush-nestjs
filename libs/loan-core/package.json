@@ -1,0 +1,19 @@
+{
+  "name": "@lab/loan-core",
+  "version": "0.0.1",
+  "description": "Loan Core",
+  "author": "Jonathan Cruz Rocha Ferreira <joohncruzrocha@gmail.com>",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  }
+}
