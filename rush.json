@@ -470,18 +470,20 @@
     // },
     {
       "packageName": "@lab/loan-andre",
-      "projectFolder": "integrations/loan-andre",
-      "reviewCategory": "production"
+      "projectFolder": "apps/loan-andre",
+      "shouldPublish": false,
+      "versionPolicyName": "Applications"
     },
     {
       "packageName": "@lab/loan-eric",
-      "projectFolder": "integrations/loan-eric",
-      "reviewCategory": "production"
+      "projectFolder": "apps/loan-eric",
+      "shouldPublish": false,
+      "versionPolicyName": "Applications"
     },
     {
       "packageName": "@lab/loan-core",
       "projectFolder": "libs/loan-core",
-      "reviewCategory": "libraries"
+      "versionPolicyName": "Libraries"
     }
   ]
 }
